@@ -193,19 +193,3 @@ void atualizarDisplayLCD() {
     }
   }
 }
-
-// void atualizarDisplayLCD() {
-//   if (estadoAtual == REPOUSO) {  
-//     lcd.clear();                 
-//     lcd.setCursor(0, 0);
-//     lcd.print(" Bem-vindo!");  
-//     lcd.setCursor(0, 1);
-//     lcd.print(" Vagas: ");                                           
-//     if (vagasDisponiveis < 0) vagasDisponiveis = 0;                  
-//     if (vagasDisponiveis > MAX_VAGAS) vagasDisponiveis = MAX_VAGAS;  
-//     lcd.print(vagasDisponiveis);
-//     for (int i = 8 + String(vagasDisponiveis).length(); i < 16; i++) {
-//       lcd.print(" ");
-//     }
-//   }
-// }
